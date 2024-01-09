@@ -3,7 +3,7 @@
     <?php echo form_open('auth/post_register', 'class="form"'); ?>
         <input class="input" type="text" name="first_name" placeholder="First name">
         <input class="input" type="text" name="last_name" placeholder="Last name">
-        <input class="input" type="text" name="contact_no" placeholder="Contact Number" maxlength="10">
+        <input class="input" type="text" name="contact_no" placeholder="Contact Number" maxlength="11">
         <input class="input" type="text" name="email" placeholder="Email">
         <input class="input" type="password" name="password" placeholder="Password">
         <button type="submit" class="form-btn">Register</button>
