@@ -37,7 +37,7 @@
         <div>
             <p style="text-align: center">Sorry for the inconvenience. We&rsquo;re performing some maintenance at the moment. If you need to you
                 can
-                always follow us on <a href="http://www.twitter.com/">Twitter</a> for updates, otherwise we&rsquo;ll be
+                always follow us on <a href="http://github.com/systpro04">Github</a> for updates, otherwise we&rsquo;ll be
                 back
                 up shortly!</p>
             <p style="text-align: center">&mdash; The Webmaster Team &mdash;</p>
@@ -45,12 +45,6 @@
     </article>
 </div>
 <style>
-    article {
-        display: block;
-        width: 700px;
-        padding: 50px;
-        margin: 0 auto;
-    }
     svg {
         width: 75px;
         margin-top: 1em;
