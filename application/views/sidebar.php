@@ -26,11 +26,11 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link"
-                        href="#">
-                        <i class="nav-icon fas fa-scroll"></i>
+                    <a class="nav-link <?= (current_url() == base_url('chat')) ? 'active' : '' ?>"
+                        href="<?= base_url('chat') ?>">
+                        <i class="nav-icon fas fa-comment-dots"></i>
                         <p>
-                            Test 1
+                           Chat Messenger
                         </p>
                     </a>
                 </li>

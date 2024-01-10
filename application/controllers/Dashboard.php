@@ -17,4 +17,14 @@ class Dashboard extends CI_Controller {
         $this->load->view('footer');
 
     }
+    public function chat() {
+        if (!$this->session->userdata('user_id')) {
+            redirect('auth/login');
+        }
+
+        $this->load->view('header');
+        $this->load->view('Chat');
+        $this->load->view('footer');
+
+    }
 }

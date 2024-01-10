@@ -60,3 +60,5 @@ $route['auth/post_login']           = 'Login_controller/post_login';
 $route['auth/logout']               = 'Login_controller/logout';
 
 $route['dashboard']                 = 'Dashboard/dashboard';
+$route['chat']                      = 'Dashboard/chat';
+
