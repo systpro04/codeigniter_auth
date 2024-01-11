@@ -37,7 +37,6 @@
                 <i class="fas fa-sign-out-alt"></i>&nbsp; Logout
             </a>
         </li>
-
     </ul>
 </nav>
 <script>
@@ -62,7 +61,6 @@
             });
         });
     });
-
 </script>
 <style>
     .small-alert {

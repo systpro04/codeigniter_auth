@@ -1,13 +1,16 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
-class Dashboard extends CI_Controller {
+class Dashboard extends CI_Controller
+{
 
-    public function __construct() {
+    public function __construct()
+    {
         parent::__construct();
     }
 
-    public function dashboard() {
+    public function dashboard()
+    {
         if (!$this->session->userdata('user_id')) {
             redirect('auth/login');
         }
@@ -17,7 +20,8 @@ class Dashboard extends CI_Controller {
         $this->load->view('footer');
 
     }
-    public function chat() {
+    public function chat()
+    {
         if (!$this->session->userdata('user_id')) {
             redirect('auth/login');
         }
